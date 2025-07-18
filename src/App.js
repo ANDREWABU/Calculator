@@ -16,6 +16,8 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className="calc-name"> CALCULATOR</h1>
+
       <div className="calculator">
         <form action="">
           <div className="display">
@@ -86,6 +88,8 @@ function App() {
           </div>
         </form>
       </div>
+
+      <p className="footer">Andrew Abu © 2025 </p>
     </div>
   );
 }
