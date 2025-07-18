@@ -28,7 +28,7 @@ function App() {
             <input type="button" value="AC" onClick={() => setValue("")} />
             <input
               type="button"
-              value="DE"
+              value="DEL"
               onClick={() => setValue(value.slice(0, -1))}
             />
             <input type="button" value="." onClick={handleClick} />
