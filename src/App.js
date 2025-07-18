@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="calc-name"> CALCULATOR</h1>
+      <h1 className="calc-name">CALCULATOR</h1>
 
       <div className="calculator">
         <form action="">
@@ -89,7 +89,15 @@ function App() {
         </form>
       </div>
 
-      <p className="footer">Andrew Abu © 2025 </p>
+      <p className="footer">Andrew Abu © 2025</p>
+
+      {/* Back to Projects Button */}
+      <a
+        href="https://andrew-profile-site.web.app/proj.html"
+        className="back-link"
+      >
+        ← Back to Projects
+      </a>
     </div>
   );
 }
